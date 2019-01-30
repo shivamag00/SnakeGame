@@ -1,2 +1,2 @@
 # SnakeGame
-C
+C Language
