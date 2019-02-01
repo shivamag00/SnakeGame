@@ -1,4 +1,6 @@
-// TODO (user#1#01/28/19): New Line Problem occurring due to scanf(confirmed).
+// TODO (user#1#01/28/19): New Line Problem occurring due to scanf(confirmed). (solved in 1.0.1.0)
+//For Moving the '*', press d+enter to go right  
+//For Moving the '*', press s+enter to go down,  
 
 #include<stdio.h>
 void right(int r)
