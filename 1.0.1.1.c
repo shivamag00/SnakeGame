@@ -5,12 +5,12 @@
                             // system("cls") may be the solution.
                                 // Ad -1. New Line Solved
                                 // DisAd - Need to store every step in memory.
-                            // _getch() is can be used to not display the movement key on terminal.
+  //(NEW)=>                  // _getch() is can be used to not display the movement key on command prompt.
 // TODO (user#1#01/28/19):2. Continuous Snake
 
 // Investigate:1. scanf("%c",&a); and give multiple characters.
 #include<stdio.h>
-#include<conio.h>
+#include<conio.h> // for using _getch() function
 void right(int r, int d)
 {
     while(d--)
