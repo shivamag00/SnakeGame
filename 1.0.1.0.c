@@ -1,4 +1,7 @@
-// TODO (user#1#01/28/19):1. New Line Problem occurring due to scanf(confirmed). (solved perhaps)
+//For Moving the '*', press d+enter to go right, press a+enter to go left  
+//For Moving the '*', press s+enter to go down, press w+enter to go up 
+
+// TODO (user#1#01/28/19):1. New Line Problem occurring due to scanf(confirmed). (solved)
                             // system("cls") may be the solution.
                                 // Ad -1. New Line Solved
                                 // DisAd - Need to store every step in memory.
