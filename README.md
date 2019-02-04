@@ -16,7 +16,7 @@ To do that easily, I propose that it is better to build the game in versions ins
    1.0.1.1.c contains the complete code of this step.    1.0.0.1.c, 1.0.1.0.c tells what steps I took to make 1.0.1.1.c
    
   
-2. I am currently on this step. Create a code in which the "*" (which represents the body of the snake) moves:
+2. I am currently on this version. Create a code in which the "*" (which represents the body of the snake) moves:
         right continuously on pressing 'd',
         down continuously on pressing 's',
         up continuously on pressing 'w',
