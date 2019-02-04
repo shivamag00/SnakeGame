@@ -11,8 +11,8 @@
 
 // Investigate:1. scanf("%c",&a); and give multiple characters.
 #include<stdio.h>
-#include<conio.h>
-#include<windows.h>
+#include<conio.h> //used for calling getch() and _kbhit function (explained later).
+#include<windows.h> //used for calling the function 'sleep()' which slows down the execution rate of a loop. 
 void right(int r, int d)
 {
     int k=0,i=0;
@@ -26,7 +26,7 @@ void right(int r, int d)
          printf(" ");
         }
         printf("*");
-        if(_kbhit()!=0)
+        if(_kbhit()!=0) //_kbhit is a function that returns 1 if a key is pressed on the keyboard, otherwise returns 0.
             break;
         Sleep(190);
         system("cls");
