@@ -1,4 +1,4 @@
-//For Moving the '*', press d+enter to go right, press a+enter to go left  
+//For Moving the '*', press d+enter to go right, press a+enter to go left,  
 //For Moving the '*', press s+enter to go down, press w+enter to go up 
 
 // TODO (user#1#01/28/19):1. New Line Problem occurring due to scanf(confirmed). (solved)
@@ -53,22 +53,22 @@ void main()
         switch(a)
         {
             case 'w':
-                system("cls");
+                system("cls"); //this command will clear the screen on command prompt.
                 d--;
                 up(d,r);
                 break;
             case 'a':
-                system("cls");
+                system("cls"); //this command will clear the screen on command prompt.
                 r--;
                 left(r,d);
                 break;
             case 's':
                 d++;
-                system("cls");
+                system("cls"); //this command will clear the screen on command prompt.
                 down(d,r);
                 break;
             case 'd':
-                system("cls");
+                system("cls");  //this command will clear the screen on command prompt.
                 r++;
                 right(r,d);
                 break;
