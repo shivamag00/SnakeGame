@@ -3,7 +3,7 @@ C Language
 
 
 We have to build a snake game without seeing the codes that are already available on the internet. 
-To do that easily, I propose that it is better to build the game in steps instead of trying to build it all at once. Following are the steps that I think we should follow:
+To do that easily, I propose that it is better to build the game in versions instead of trying to build it all at once. Following are the versions that I think we should make:
 
 1. Create a simple code that can control the movement of a single character, say "*" (which represents the body of the snake), using wasd keys i.e. on pressing 'd', star should move one step right,
           on pressing 's' , it should move one step down,
@@ -26,6 +26,7 @@ To do that easily, I propose that it is better to build the game in steps instea
 3. Creating the food for the snake.
 4. The snake should elongate on eating the food.
 
-Subsequesnt steps, we will think.
+Subsequesnt versions, we will think.
 
 Happy Developing :)
+
