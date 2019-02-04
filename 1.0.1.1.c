@@ -51,7 +51,7 @@ void main()
     while (1)
     {
         char a,j;
-        a=_getch();
+        a=_getch(); //will take a single character as input without displaying it on the command prompt. There is also no need to press enter key after typing a character.
         switch(a)
         {
             case 'w':
