@@ -26,7 +26,7 @@ void right(int r, int d)
          printf(" ");
         }
         printf("*");
-        if(_kbhit()!=0) //_kbhit is a function that returns 1 if a key is pressed on the keyboard, otherwise returns 0.
+        if(_kbhit()!=0) //_kbhit is a function that returns 1 if a key is pressed on the keyboard, otherwise returns 0 value.
             break;
         Sleep(190);
         system("cls");
