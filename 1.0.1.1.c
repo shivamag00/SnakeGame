@@ -2,10 +2,10 @@
 //For Moving the '*', press s to go down, press w to go up 
 
 // TODO (user#1#01/28/19):1. New Line Problem occurring due to scanf(confirmed). (solved)
-        //Prob1.             // system("cls") may be the solution.
+        //Prob1.         // system("cls") may be the solution.
                                 // Ad -1. New Line Solved
                                 // DisAd - Need to store every step in memory.
-  //(NEW)=>                  // _getch() is can be used to not display the movement key on command prompt.
+             //(NEW)=>          // _getch() is can be used to not display the movement key on command prompt.
 // TODO (user#1#01/28/19):2. Continuous Snake
 
 // Investigate:1. scanf("%c",&a); and give multiple characters.
