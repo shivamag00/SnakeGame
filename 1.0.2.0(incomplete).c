@@ -1,13 +1,13 @@
 // TODO (user#1#01/28/19):1. Control Single step movements of snake.
-                    //New Line Problem occurring due to scanf(confirmed). (solved perhaps)
+                    //New Line Problem occurring due to scanf(confirmed). (solved)
                             // system("cls") may be the solution.
                                 // Ad -1. New Line Solved
                                 // DisAd - Need to store every step in memory.
                             // _getch() is can be used to not display the movement key on terminal.
 // TODO (user#1#01/28/19):2. Continuous Snake
-                    //Delay Loop time Problem
+                    //Delay Loop time Problem (solved)
                             // Sleep() is the solution.
-                    //Take input for further movement at the same time the loop is being executed.
+                    //Take input for further movement at the same time the loop is being executed.(unsolved)
 
 // Investigate:1. scanf("%c",&a); and give multiple characters.
 #include<stdio.h>
