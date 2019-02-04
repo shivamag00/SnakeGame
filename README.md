@@ -28,4 +28,4 @@ To do that easily, I propose that it is better to build the game in steps instea
 
 Subsequesnt steps, we will think.
 
-This is how I intend to build the snake game.
+Happy Developing :)
