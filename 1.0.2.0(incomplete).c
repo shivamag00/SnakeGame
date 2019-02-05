@@ -1,53 +1,75 @@
 // TODO (user#1#01/28/19):1. Control Single step movements of snake.
+
               //Prob1.     //New Line Problem occurring due to scanf(confirmed). (solved)
+
                                 // system("cls") may be the solution.
+
                                       // Ad -1. New Line Solved
+
                                       // DisAd - Need to store every step in memory.
+
                           // _getch() is can be used to not display the movement key on terminal.
+
 // TODO (user#1#01/28/19):2. Continuous Snake
+
               //Prob2.    //Delay Loop time Problem (solved)
+
                                        // Sleep() is the solution.
+
              //Prob3.     //Take input for further movement at the same time the loop is being executed.(unsolved)
 
+
+
 // Investigate:1. scanf("%c",&a); and give multiple characters.
+
 #include<stdio.h>
 #include<conio.h> //used for calling getch() and _kbhit function (explained later).
 #include<windows.h> //used for calling the function 'sleep()' which slows down the execution rate of a loop. 
-void right(int r, int d)
+int r=0,d=0;
+void right(/*int r, int d8*/)
+
 {
-    int k=0,i=0;
-    while(d--)
-    printf("\n");
+	int k=0,i=0;
     while (1)
     {
-        k++;
-        for (i=0;i<=k;i++)
+        for (i=1;i<=d;i++)
+        {
+         printf("\n");
+        }
+		k++;
+        for (i=1;i<=r+k;i++)
         {
          printf(" ");
         }
         printf("*");
         if(_kbhit()!=0) //_kbhit is a function that returns 1 if a key is pressed on the keyboard, otherwise returns 0 value.
-            break;
-        Sleep(190);
+        {
+			r=r+k;
+			break;
+		}
+        Sleep(500);
         system("cls");
     }
 }
-void down(int d, int r)
+void down(/*int d, int r*/)
 {
    int k=0,i=0,l=0;
     while (1)
     {
         l++;
-        for (i=0;i<=l;i++)
+        for (i=1;i<=l;i++)
         {
          printf("\n");
         }
-        for(k=0;k<=r;k++)
+        for(k=2;k<=r;k++)
         printf(" ");
         printf("*");
         if(_kbhit()!=0)
-            break;
-        Sleep(190);
+        {
+			d=l;    
+			break;
+		}
+        Sleep(500);
         system("cls");
     }
 }
@@ -71,7 +93,7 @@ void up(int d, int r)
 
 void main()
 {
-    int u=0,d=0,l=0,r=0, hit=0;
+    int u=0,l=0, hit=0;
     while (1)
     {
         char a,j;
@@ -89,16 +111,15 @@ void main()
                 left(r,d);
                 break;
             case 's':
-                d++;
+                //d++;
                 system("cls");
-                down(d,r);
+                down(/*d,r*/);
                 break;
             case 'd':
                 system("cls");
-                r++;
-                right(r,d);
+                //r++;
+                right(/*r,d*/);
                 break;
         }
     }
 }
-
