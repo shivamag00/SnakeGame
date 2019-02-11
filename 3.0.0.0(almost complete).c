@@ -1,3 +1,4 @@
+//The code does not run smoothly
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
