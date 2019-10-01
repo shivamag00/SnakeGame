@@ -37,9 +37,9 @@ void box()
             else
                 {
                     if(i==x && j==y)
-                        printf("O");
+                        printf("%c",2);
                     else if(i==fx && j==fy)
-                        printf("*");
+                        printf("%c",3);
                     else
                         {
                             int f=0;
@@ -47,7 +47,7 @@ void box()
                             {
                                 if(i==tailx[k] && j==taily[k])
                                 {
-                                    printf("o");
+                                    printf("*");
                                     f=1;
                                 }
                             }
@@ -151,14 +151,15 @@ void logic()
 
 int main()
 {
-    int i,j;
+    system("MODE con cols=31 lines=31");
+	int i,j;
     setup();
     while(!gameover)
     {
         box();
         input();
         logic();
-        Sleep(500);
+        Sleep(200);
     }
     if(gameover==1)
         printf("your score is \n%d\nBETTER LUCK NEXT TIME",score);
