@@ -25,8 +25,7 @@ To do that easily, I propose that it is better to build the game in versions ins
         
 3. Creating the food for the snake.
 4. The snake should elongate on eating the food.
-
-Subsequesnt versions, we will think.
+5. Further versions of the game will include proper functionality including the snake dying if it touches either itself or the wall.
 
 Happy Developing :)
 
